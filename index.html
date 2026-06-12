@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Joseph & Nathalie Wedding</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ENVELOPE INTRO -->
+  <div id="envelopeIntro" class="envelope-intro">
+    <div class="envelope-scene" onclick="openEnvelope()">
+
+      <div class="invitation-card">
+        <span>Joseph & Nathalie</span>
+        <small>YOU ARE INVITED</small>
+      </div>
+
+      <img
+        src="envelope.png"
+        class="envelope-image"
+        alt="Wedding Envelope"
+      />
+
+      <div class="tap-text">
+        TAP TO OPEN
+      </div>
+
+    </div>
+  </div>
+
+  <!-- MUSIC -->
+  <audio id="bgMusic" loop>
+    <source src="Music W.mp3" type="audio/mpeg" />
+  </audio>
+
+  <button class="music-btn" onclick="playMusic()" id="musicButton">
+    ♪
+  </button>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="content">
+
+      <p class="small-title">
+        TOGETHER WITH OUR FAMILIES
+      </p>
+
+      <h1>Joseph</h1>
+
+      <div class="and">&</div>
+
+      <h1>Nathalie</h1>
+
+      <div class="line"></div>
+
+      <p class="intro">
+        Together with our families, we warmly invite you to celebrate
+        this special day with us.
+      </p>
+
+      <div class="date">
+        September 04, 2026
+      </div>
+
+
+      <div class="hero-buttons">
+
+        <a href="#details" class="btn">
+          SAVE THE DATE
+        </a>
+
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfT_9Zsvoyea1ynB24aU8Efl8xCtncKAWs4Xt0681XDihBdEQ/viewform"
+          target="_blank"
+          class="rsvp-btn"
+        >
+          JOIN OUR CELEBRATION
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DETAILS -->
+<section id="details" class="details">
+
+  <p class="small-title">SAVE THE DATE</p>
+
+  <h2>Friday, September 04, 2026</h2>
+
+  <div class="line small"></div>
+
+  <div id="countdown"></div>
+
+  <p>
+    We would be honored to celebrate this unforgettable moment together with you.
+  </p>
+
+</section>
+
+  <!-- GALLERY SECTION -->
+  <section class="gallery">
+
+    <div class="story-section">
+
+      <div class="polaroid-slider">
+
+        <img
+          src="IMG_0954 (1).jpeg"
+          class="slide active"
+          alt="Joseph and Nathalie memory"
+        />
+
+        <img
+          src="IMG_1836.jpeg"
+          class="slide"
+          alt="Joseph and Nathalie memory"
+        />
+
+        <img
+          src="IMG_2008.jpeg"
+          class="slide"
+          alt="Joseph and Nathalie memory"
+        />
+
+      </div>
+
+      <div class="story-text">
+
+        <p class="small-title">
+          OUR STORY
+        </p>
+
+        <div class="line small"></div>
+
+        <h2>
+          Joseph & Nathalie
+        </h2>
+
+        <p>
+          Our story is filled with love,
+          beautiful memories,
+          and the beginning of forever together.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- LOCATIONS SECTION -->
+  <section class="locations">
+
+    <p class="small-title">
+      WEDDING LOCATIONS
+    </p>
+
+    <h2>
+      Ceremony & Reception
+    </h2>
+
+    <div class="line small"></div>
+
+    <div class="location-grid">
+
+      <div class="location-card">
+
+        <img
+          src="الكنيسة.png"
+          alt="Wedding Ceremony Church"
+        />
+
+        <div class="location-info">
+
+          <p class="small-title">
+            CEREMONY
+          </p>
+
+          <h3>
+            Wedding Ceremony
+          </h3>
+
+          <p>
+            Friday, September 04, 2026
+          </p>
+
+          <p>
+            7:00 PM
+          </p>
+
+          <a
+            href="#"
+            target="_blank"
+            class="location-btn"
+          >
+            View Church Location
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="location-card">
+
+        <img
+          src="Hotel foto.png"
+          alt="Wedding Reception Hotel"
+        />
+
+        <div class="location-info">
+
+          <p class="small-title">
+            RECEPTION
+          </p>
+
+          <h3>
+            Wedding Reception
+          </h3>
+
+          <p>
+            Friday, September 04, 2026
+          </p>
+
+          <p>
+            8:30 PM
+          </p>
+
+          <a
+            href="#"
+            target="_blank"
+            class="location-btn"
+          >
+            View Reception Location
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
